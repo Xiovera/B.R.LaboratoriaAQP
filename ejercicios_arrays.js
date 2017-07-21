@@ -128,3 +128,18 @@ describe ('Ejercicio 7', function () {
     assert.deepEqual([1997, 1977], edades([20, 16, 40, 6]));
   });
 });
+
+var a = [15,  29, 78, 29, 40, 20, 18, 100, 78, 68];
+var pares;
+var impares;
+for(var i = 0; i < arregloD.length; i++){
+    if(i % 2 == 0){
+      pares+=a[i];
+    }
+    else{
+      impares+=a[i];
+    }
+  }
+  console.log("Elementos de posición par: " + arrPares) 
+  console.log("Elementos de posición Impar: " + arrImpares);
+  
